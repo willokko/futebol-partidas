@@ -29,14 +29,14 @@ Um sistema web para organizar partidas de futebol entre amigos, desenvolvido com
 
 1. Clone o repositório
 2. Instale as dependências:
-    bash
-    npm install
+   bash
+   npm install
 
-3. Inicie o servidor:
-    bash
-    npm start
+4. Inicie o servidor:
+   bash
+   npm start
 
-4. Acesse a aplicação em seu navegador: `http://localhost:3000`
+6. Acesse a aplicação em seu navegador: `http://localhost:3000`
 
 ## 💻 Como Usar
 
