@@ -1,0 +1,131 @@
+/* Dark mode styles */
+body {
+    background-color: #1a1d20;
+    color: #e4e6eb;
+}
+
+.card {
+    background-color: #242526;
+    border-color: #2d2f31;
+}
+
+.card-header {
+    background-color: #2d2f31;
+    border-bottom-color: #3e4042;
+    color: #e4e6eb;
+}
+
+.modal-content {
+    background-color: #242526;
+    border-color: #2d2f31;
+}
+
+.modal-header {
+    border-bottom-color: #3e4042;
+}
+
+.modal-footer {
+    border-top-color: #3e4042;
+}
+
+.form-control {
+    background-color: #3a3b3c;
+    border-color: #3e4042;
+    color: #e4e6eb;
+}
+
+.form-control:focus {
+    background-color: #3a3b3c;
+    border-color: #4d4f50;
+    color: #e4e6eb;
+    box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+}
+
+.form-control::placeholder {
+    color: #b0b3b8;
+}
+
+.border {
+    border-color: #3e4042 !important;
+}
+
+.text-muted {
+    color: #b0b3b8 !important;
+}
+
+.btn-outline-success {
+    color: #00ff9d;
+    border-color: #00ff9d;
+}
+
+.btn-outline-success:hover {
+    background-color: #00ff9d;
+    color: #242526;
+}
+
+.bg-success.bg-opacity-10 {
+    background-color: rgba(0, 255, 157, 0.1) !important;
+}
+
+.alert-danger {
+    background-color: #3d1e28;
+    border-color: #4c2632;
+    color: #ff8fa3;
+}
+
+.alert-info {
+    background-color: #1e2c3d;
+    border-color: #26364c;
+    color: #8fb8ff;
+}
+
+/* Hover effects */
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1d20;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3e4042;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4d4f50;
+}
+
+/* Jogadores lista */
+.jogador-item {
+    background-color: #2d2f31;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.jogador-item:hover {
+    background-color: #3a3b3c;
+}
+
+.jogador-presente {
+    background-color: rgba(0, 255, 157, 0.1);
+}
+
+/* Botões */
+.btn-outline-light {
+    border-color: #4d4f50;
+}
+
+.btn-outline-light:hover {
+    background-color: #4d4f50;
+    border-color: #4d4f50;
+}

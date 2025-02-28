@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Partidas de Futebol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Organizador de Partidas de Futebol</h1>
+        
+        <!-- Botão para abrir modal de nova partida -->
+        <div class="text-end mb-4">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#novaPartidaModal">
+                <i class="bi bi-plus-circle"></i> Nova Partida
+            </button>
+        </div>
+
+        <!-- Container para listar partidas -->
+        <div class="row" id="listaPartidas">
+            <!-- As partidas serão inseridas aqui dinamicamente -->
+        </div>
+    </div>
+
+    <!-- Modal Nova Partida -->
+    <div class="modal fade" id="novaPartidaModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nova Partida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="partidaForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="titulo" placeholder="Título da Partida" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="local" placeholder="Local" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="date" class="form-control" id="data" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="time" class="form-control" id="horario" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Criar Partida</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
