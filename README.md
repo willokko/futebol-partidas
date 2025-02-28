@@ -27,16 +27,24 @@ Um sistema web para organizar partidas de futebol entre amigos, desenvolvido com
 
 ## 📦 Instalação
 
-1. Clone o repositório
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-repositorio.git
+   cd seu-repositorio
+   ```
+
 2. Instale as dependências:
-``bash
-npm install``
+   ```bash
+   npm install
+   ```
 
-4. Inicie o servidor:
-``bash
-npm start``
+3. Inicie o servidor:
+   ```bash
+   npm start
+   ```
 
-6. Acesse a aplicação em seu navegador: `http://localhost:3000`
+4. Acesse a aplicação em seu navegador:  
+   `http://localhost:3000`
 
 ## 💻 Como Usar
 
@@ -48,25 +56,27 @@ npm start``
 
 ## 🗂️ Estrutura do Projeto
 
+```
 futebol-partidas/
-    ├── backend/
-    │   ├── controllers/
-    │   │   └── partidasController.js
-    │   ├── data/
-    │   │   └── partidas.json
-    │   ├── routes/
-    │   │   └── partidas.js
-    │   └── server.js
-    ├── frontend/
-    │   ├── css/
-    │   │   └── styles.css
-    │   ├── js/
-    │   │   ├── main.js
-    │   │   └── partida.js
-    │   ├── index.html
-    │   └── partida.html
-    ├── package.json
-    └── README.md
+├── backend/
+│   ├── controllers/
+│   │   └── partidasController.js
+│   ├── data/
+│   │   └── partidas.json
+│   ├── routes/
+│   │   └── partidas.js
+│   └── server.js
+├── frontend/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   ├── main.js
+│   │   └── partida.js
+│   ├── index.html
+│   └── partida.html
+├── package.json
+└── README.md
+```
 
 ## 👥 Autor
 
@@ -75,4 +85,3 @@ futebol-partidas/
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
-
